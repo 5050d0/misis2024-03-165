@@ -10,7 +10,7 @@ def read_csv(filename):
     return Headers,Array
 headers,array = read_csv("Вариант 6/game.txt")
 characterlist = [i[1] for i in array]
-print(characterlist)
+
 while (inpt:=input())!='game':
     if inpt in characterlist:
         print(f"Персонаж {inpt} встречается в играх:")

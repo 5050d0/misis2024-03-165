@@ -9,7 +9,7 @@ def read_csv(filename):
         Array = [i.strip().split('$') for i in file.readlines()]
     return Headers,Array
 
-
+headers,array = read_csv("Вариант 6/game.txt")
 
 print('Отчёт:')
 for i in array:
